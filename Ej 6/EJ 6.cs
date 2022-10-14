@@ -7,9 +7,7 @@ namespace alumnos
         
         static void Main(string[] args)
         {  
-            string opcion="";
-
-            
+            string opcion="";          
           
             do
             {
@@ -42,10 +40,7 @@ namespace alumnos
                     break;
                     }
             }while(opcion != "0");
-        }   
-
-        
-        
+        }               
         static int sum(int num1=0, int num2=0)
         {
             
@@ -60,7 +55,6 @@ namespace alumnos
             Console.ReadKey();
             return suma;
         }
-
         static double resta(int num1=0, int num2=0)
         {
             
@@ -75,7 +69,6 @@ namespace alumnos
             Console.ReadKey();
             return resta;
         }
-
         static int multi(int num1, int num2)
         {
             
@@ -91,7 +84,6 @@ namespace alumnos
             return multi;
             
         }
-
         static double div(double num1, double num2)
         {
             Console.WriteLine("Ingreso Dividir");
