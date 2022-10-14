@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Blady\\Documents\\C#\\Ejercicios\\TP 2\\ejj1\\ejj1.csproj": {}
+    "C:\\Users\\Blady\\Documents\\C#\\Ejercicios\\TP 1\\Ej 1\\ejj1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Blady\\Documents\\C#\\Ejercicios\\TP 2\\ejj1\\ejj1.csproj": {
+    "C:\\Users\\Blady\\Documents\\C#\\Ejercicios\\TP 1\\Ej 1\\ejj1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Blady\\Documents\\C#\\Ejercicios\\TP 2\\ejj1\\ejj1.csproj",
+        "projectUniqueName": "C:\\Users\\Blady\\Documents\\C#\\Ejercicios\\TP 1\\Ej 1\\ejj1.csproj",
         "projectName": "ejj1",
-        "projectPath": "C:\\Users\\Blady\\Documents\\C#\\Ejercicios\\TP 2\\ejj1\\ejj1.csproj",
+        "projectPath": "C:\\Users\\Blady\\Documents\\C#\\Ejercicios\\TP 1\\Ej 1\\ejj1.csproj",
         "packagesPath": "C:\\Users\\Blady\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Blady\\Documents\\C#\\Ejercicios\\TP 2\\ejj1\\obj\\",
+        "outputPath": "C:\\Users\\Blady\\Documents\\C#\\Ejercicios\\TP 1\\Ej 1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Blady\\AppData\\Roaming\\NuGet\\NuGet.Config"

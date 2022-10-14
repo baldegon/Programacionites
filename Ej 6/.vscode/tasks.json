@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/Ej 6.csproj",
+                "${workspaceFolder}/ejj1.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/Ej 6.csproj",
+                "${workspaceFolder}/ejj1.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/Ej 6.csproj"
+                "${workspaceFolder}/ejj1.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

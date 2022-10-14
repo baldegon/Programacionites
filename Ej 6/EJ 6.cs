@@ -9,12 +9,10 @@ namespace alumnos
         {  
             string opcion="";
 
-            Console.WriteLine("Aqui puede hacer varias operaciones");
-            Console.WriteLine("Ingrese una opcion a realizar ↓ : ");
-            Console.ReadKey();
-            Console.Clear();
+            
           
-            while(opcion != "q"){
+            do
+            {
 
            
                 Console.WriteLine("Opciones:");
@@ -28,35 +26,29 @@ namespace alumnos
            
             switch (opcion) {
                     case "1":
-                    
-                    sum();
+                    sum(0,0);
                     break;
-                    default:
-                    Console.WriteLine("Ingrese una opcion valida");
-                    Console.ReadKey();
-                    break;
-
+                   
                     case "2":
-                    resta();
+                    resta(0,0);
                     break;
 
                     case "3":
-                    multi();
+                    multi(0,0);
                     break;
 
                     case "4":
-                    div();
+                    div(0,0);
                     break;
                     }
-            }
-        }
+            }while(opcion != "0");
+        }   
 
         
         
-        static void sum()
+        static int sum(int num1=0, int num2=0)
         {
-            int num1=0;
-            int num2=0;
+            
             Console.WriteLine("Ingreso sumar");
             Console.WriteLine("Ingrese los numeros: ");
             num1=Int32.Parse(Console.ReadLine());
@@ -66,56 +58,52 @@ namespace alumnos
             Console.WriteLine("La suma de los dos numeros es de: " + suma);
             Console.WriteLine("Para hacer otra operacion o finalizar aprete enter");
             Console.ReadKey();
-            
+            return suma;
         }
 
-        static void resta()
+        static double resta(int num1=0, int num2=0)
         {
-            int num1=0;
-            int num2=0;
+            
             Console.WriteLine("Ingreso restar");
             Console.WriteLine("Ingrese los numeros: ");
             num1=Int32.Parse(Console.ReadLine());
             num2=Int32.Parse(Console.ReadLine());
             int resta=0;
             resta = num1 - num2;
-            Console.WriteLine("La suma de los dos numeros es de: " + resta);
+            Console.WriteLine("La resta de los dos numeros es de: " + resta);
             Console.WriteLine("Para hacer otra operacion o finalizar aprete enter");
             Console.ReadKey();
-            
+            return resta;
         }
 
-        static void multi()
+        static int multi(int num1, int num2)
         {
-            int num1=0;
-            int num2=0;
+            
             Console.WriteLine("Ingreso Multiplicar");
             Console.WriteLine("Ingrese los numeros: ");
             num1=Int32.Parse(Console.ReadLine());
             num2=Int32.Parse(Console.ReadLine());
             int multi=0;
             multi = num1 * num2;
-            Console.WriteLine("La suma de los dos numeros es de: " + multi);
+            Console.WriteLine("La multiplicacion de los dos numeros es de: " + multi);
             Console.WriteLine("Para hacer otra operacion o finalizar aprete enter");
             Console.ReadKey();
-            
+            return multi;
             
         }
 
-        static void div()
+        static double div(double num1, double num2)
         {
-            int num1=0;
-            int num2=0;
             Console.WriteLine("Ingreso Dividir");
             Console.WriteLine("Ingrese los numeros: ");
-            num1=Int32.Parse(Console.ReadLine());
-            num2=Int32.Parse(Console.ReadLine());
-            float div=0f;
+            num1=double.Parse(Console.ReadLine());
+            num2=double.Parse(Console.ReadLine());
+            double div=0f;
             div = num1 / num2;
-            Console.WriteLine("La suma de los dos numeros es de: " + div);
+            Console.WriteLine("La division de los dos numeros es de: " + div);
             Console.WriteLine("Para hacer otra operacion o finalizar aprete enter");
             Console.ReadKey();
-            
+            return div;   
         }
     }
 }  
